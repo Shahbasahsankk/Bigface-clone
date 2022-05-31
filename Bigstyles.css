@@ -1,0 +1,405 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.announcement-nav{
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1.28px;
+}
+.Header{
+    width: 100%;
+    height: 50px;
+    background-color:white;
+}
+.container{
+    display: flex;
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+    height: 60px;
+}
+.shop{
+    margin-left: 45px;
+    padding-top: 23px;
+    font-style: normal;
+}
+.shop:hover{
+    color: white;
+    cursor: pointer;
+}
+.brand{
+     margin-left: 511px;
+     padding-top: 18px;
+}
+.brand:hover{
+     cursor: pointer;
+}
+.bag{
+     margin-left: 500px;
+     padding-top: 23px ;
+}
+.bag:hover{
+    color: white;
+    cursor: pointer;
+}
+.picbody{
+    position: relative;
+
+}
+.giant{
+    width: 100%;
+}
+.products{
+    display:flex;
+    width: 100%;
+    height: 680px;
+    margin-top: -2px;
+}
+.tenniskit{
+    width: 50%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+.img-tennis{
+    position: relative;
+    bottom: -3px;
+    left: 0px;
+    width: 100%;
+    height: 672px;
+}
+.b{
+    position: relative;
+    margin-top: -636px;
+    padding-left: 47px;
+}
+.b:hover{
+    text-decoration: underline;
+}
+#b{
+    text-decoration: none;
+    padding-top: 50px;
+    font-size: larger;
+}
+.coffee{
+    width: 50%;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.img-coffee{
+    width: 690px;
+    position: relative;
+    left: -6px;
+    top: -63px;
+}
+.cof{
+    position: relative;
+    margin-top: -806px;
+    padding-left: 50px;
+}
+.cof:hover{
+   text-decoration: underline;
+}
+.logo-section{
+    width: 100%;
+    height: 350px ;
+
+}
+#img-logo{
+    width: 100%;
+    padding: 4%;
+    position: relative;
+    right: -2px;
+    bottom: -10px;
+}
+.textsection{
+    width: 100%;
+    background-color: white;
+    height: 265px;
+    border-bottom: 2px solid black;
+}
+#text-bf{
+    position: relative;
+    top: 45px;
+    left: 45px;
+}
+#face-icon{
+    position:relative;
+    left: 46px;
+    top: 72px;
+    width: 60px;
+    height: 75px;
+}
+#bmo{
+    position: relative;
+    top: -66px;
+    left: 195px;
+}
+#mk1{
+    position:relative;
+    top: -50px;
+    left: 197px;
+}
+#uncommon{
+    position: relative;
+    left: 372px;
+    top: -181px;
+
+}
+#inspiring{
+    position:relative;
+    left: 374px;
+    top: -165px;
+}
+#caution{
+  position:relative;
+  top: -295px;
+  left: 785px;
+}
+#smilematter{
+ position: relative;
+ top: -283px;
+ left: 786px;
+}
+#arrow{
+    position:relative;
+    left: 995px;
+    top: -464px;
+    width: 98px;
+    height: 196px;
+
+}
+#happiness{
+    position: relative;
+    left: 1127px;
+    top: -584px;
+
+}
+.products-2{
+    width: 100%;
+}
+.pictures{
+    display: flex;
+
+}
+.img-products2{
+    width: 33%;
+    color: white;
+}
+.img-products2:hover{
+    cursor: pointer;
+    color: black;
+}
+.image{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    text-decoration: underline;
+
+}
+#one{
+    padding-left: 178px;
+}
+.txt1{
+    padding-left: 190px;
+    padding-top: 4px;
+}
+#two{
+   padding-left: 160px;
+}
+.txt2{
+  padding-top: 4px;
+  padding-left: 190px;
+}
+#three{
+    padding-left: 165px;
+}
+.txt3{
+    padding-top: 4px;
+    padding-left: 200px;
+}
+#jacket{
+    position: relative;
+    top: -2px;
+    left: 20px;
+    height: 410px;
+    width: 430px;
+}
+#four{
+     padding-left: 170px;
+}
+.txt4{
+    padding-left: 204px;
+}
+#coffee1{
+    padding-left: 26px;
+    margin-top: -50px;
+    height: 108%;
+    
+}
+#five{
+    padding-left:183px ;
+    margin-top: -40px;
+}
+.txt5{
+    padding-left: 199px;
+}
+#six{
+    margin-top: -40px;
+    padding-left:  182px; 
+}
+.txt6{
+    padding-left: 200px;
+}
+#coffee2{
+       padding-left: 20px;
+       margin-top: -53px;
+       height: 108%;
+}
+#coffee3{
+       padding-left: 53px;
+       margin-top: -21px;
+       height: 530px;
+}
+#seven{
+    padding-left: 152px;
+    margin-top: -78px;
+}
+.txt7{
+    padding-left: 227px;
+}
+#jersey{
+   width: 420px;
+   padding-left: 33px;
+   margin-top: 30px;
+}
+#eight{
+    padding-left: 146px;
+    padding-top: 10px;
+}
+.txt8{
+    padding-left: 208px;
+}
+#hoodie{
+  width: 410px;
+  margin-left: 24px;
+  margin-top: 27px;
+}
+#nine{
+    padding-left: 136px;
+    margin-top: -6px;
+}
+.txt9{
+   padding-left: 204px;
+
+}
+#fullsleeve{
+    width: 410px;
+    margin-left: 49px;
+    margin-top: 20px;
+}
+#ten{
+    padding-left: 200px;
+}
+.test {
+    color: #fff;
+    text-decoration: none;
+}
+.txt10{
+    margin-left: 227px;
+}
+#box{
+    width: 95%;
+    margin-left: 23px;
+    
+}
+#nft{
+    margin-left: 143px;
+    margin-top: 7px;
+}
+.txt11{
+    padding-left: 195px;
+}
+#cap2{
+    width: 95%;
+    margin-left: 33px;
+    margin-top: -5px;
+}
+#dadhat{
+    padding-left: 126px;
+    margin-top: 14px;
+}
+.txt12{
+    padding-left: 218px;
+}
+.blank{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+.foot{
+    width: 100%;
+    height: 350px;
+    background-color:black;
+    position: absolute;
+}
+.footercoloumns1{
+    display: flex;
+   
+
+}
+.cl1{
+    width: 25%;
+    margin-left: 154px;
+    margin-top: 50px;
+}
+.cl2{
+    width: 25%;
+    margin-left: -50px;
+    margin-top: 50px; 
+}
+.cl3{
+    width: 25%;
+    margin-left: -79px;
+    margin-top: 50px;
+}
+.cl4{
+    width: 25%;
+    margin-left: 3px;
+    margin-top: 50px;
+}
+.a{
+    color: white;
+}
+
+.footercoloumns2{
+    display: flex;
+}
+
+.colmn1{
+ width: 50%;
+ color: white;
+ margin-left: 156px;
+ margin-top: 80px;
+}
+.colmn2{
+    width: 50%;
+    color: white;
+    margin-left: 632px;
+    margin-top: 80px;
+}
